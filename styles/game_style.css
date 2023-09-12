@@ -1,0 +1,64 @@
+@import url("swap.css");
+
+* {
+    zoom: 95%
+}
+
+#click_message{
+    position: absolute;
+    left: 50%;
+    top: 7%; 
+    transform: translate(-50%, -50%); 
+}
+
+body {
+  background-image: url("../images/background.png");
+  background-size: cover;
+}
+
+#submit {
+  font-family: "Papyrus", cursive;
+}
+
+#doge {
+    width: 429px;
+    height: 528px;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+}
+#count {
+    position: absolute;
+    left: 50%;
+    top: 90%; 
+    transform: translate(-50%, -50%); 
+}
+
+#barks, #super_barks {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#doges, #super_doge {
+    float: right;
+    width: 95px;
+    height: 75.5px;
+    display: inline;
+}
+
+.left_line {
+    padding: 10px;
+    float: left;
+    padding-left: 50px;
+    border-width: 100px;
+    position: relative;
+}
+
+.right_line {
+    padding: 10px;
+    float: right;
+    border-width: 100px;
+    position: relative;
+}

@@ -1,0 +1,70 @@
+<!-- 
+Improvements/Additions---------------------------------------------------------------------------
+HTML:
+- changed the photos to better fit the meme
+- Added two images 
+
+CSS:
+- Fixed background not loading right on a larger monitor
+- Zoomed out a little bit
+- Doge no longer moves when making upgrades, stays centered
+- Used two classes to save space
+
+Javascript:
+- Split up the multiplyer and auto into functions and added another multiplyer and auto option
+- Used JQuery for the auto timing
+- Changed some variable names and added comments
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bravo Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles/normalize_5.0.0.css" />
+    <link rel="stylesheet" href="./styles/bootstrap_5.0.2.css" />
+    <link rel="stylesheet" href="./styles/game_style.css" />
+    <script src="./scripts/jqueryui_1.13.2.js"></script>
+    <script src="./scripts/jquery_3.7.0.js"></script>
+    <script src="./scripts/game_control.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <img id="barks" src="./images/doge_bark.png" />
+      <h2 id="bark" class="left_line">barks: 1</h2>
+      <h2 id="barks_count" class="left_line">cost: 5</h2>
+    </div>
+
+    <div>
+      <img id="doges" src="./images/doge_plus_one.png" />
+      <h2 id="dog" class="right_line">doge: 0</h2>
+      <h2 id="doge_cost" class="right_line">cost: 10</h2>
+    </div>
+
+    <div>
+      <h1 id="click_message">Click the Doge</h1>
+      <img id="doge" src="./images/doge.png" />
+      <h2 id="count">WOW: 0</h2>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div>
+      <img id="super_barks" src="./images/doge_bark_super.png" />
+      <h2 id="super_bark" class="left_line">super barks: 0</h2>
+      <h2 id="super_barks_count" class="left_line">cost: 10000</h2>
+    </div>
+
+    <div>
+      <img id="super_doge" src="./images/doge_super_plus_one.png" />
+      <h2 id="super_dog" class="right_line">super doge: 0</h2>
+      <h2 id="super_doge_cost" class="right_line">cost: 100000</h2>
+    </div>
+  </body>
+</html>
