@@ -1,0 +1,28 @@
+@import url("../../styles/swap.css");
+
+body {
+  background-image: url("../../images/background.png");
+  background-size: cover;
+}
+
+* {
+    text-align: center;
+}
+
+#barks, #super_barks {
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+
+#doges, #super_doge {
+    width: 95px;
+    height: 75.5px;
+    display: inline;
+}
+
+#doge {
+    width: 429px;
+    height: 528px;
+    position: inline;
+}
